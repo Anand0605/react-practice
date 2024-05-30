@@ -1,7 +1,8 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+// import img from './image/photo.webp'
+// import UseStateComponent from './components/UseState/UseStateComponent'
+import UseReducerComponent  from './components/useReducer/UseReducerComponent'
 
 // function App() {
 //   const [data, setData] = useState()
@@ -28,6 +29,28 @@ import './App.css'
 
 // export default App
 
+// function App() {
+//   const [ hide, setHide] = useState(false)
+ 
+
+
+//   return (
+//     <>
+//      <div className='App'>
+//       {
+//         hide ? <h1>hello Anand Kumar Gautam <br /> coder <br /> from frontend devloper <img className='height-100px' src={img} alt="" /></h1>  :null 
+//       }
+    
+//       {/* <button onClick={()=>setHide(false)}>hide</button>
+//       <button onClick={()=>setHide(true)}>show</button> */}
+//       <button onClick={()=>setHide(!hide)}>toggle</button>
+//      </div>
+//     </>
+//   )
+// }
+
+// export default App
+
 function App() {
   const [ hide, setHide] = useState(false)
  
@@ -35,15 +58,8 @@ function App() {
 
   return (
     <>
-     <div className='App'>
-      {
-        hide ? <h1>hello Anand Kumar Gautam coder from frontend devloper</h1>  :null 
-      }
-    
-      {/* <button onClick={()=>setHide(false)}>hide</button>
-      <button onClick={()=>setHide(true)}>show</button> */}
-      <button onClick={()=>setHide(!hide)}>toggle</button>
-     </div>
+    {/* <UseStateComponent/> */}
+    <UseReducerComponent/>
     </>
   )
 }
