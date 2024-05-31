@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useState,useLayoutEffect } from 'react'
 
 const UseLayoutComponent = () => {
-const [bgColor, setBgColor] = useState('yellow')
+const [bgColor, setBgColor] = useState('blue')
 
 useLayoutEffect(()=>{
     console.log("useLayoutEffect is running.....")

@@ -8,6 +8,9 @@ import './App.css'
 // import MoneyState from './components/useContext/context/MoneyState'
 import IndianGovt from './components/useContext/IndianGovt'
 import UseLayoutComponent from './components/UseLayoutEffect/UseLayoutComponent'
+import UseCallbackComponent from './components/useCallback/UseCallbackComponent'
+import UseMemoComponent from './components/useMemo/UseMemoComponent'
+import Test from './components/useFetch_Custom_Hook.jsx/Test'
 
 // function App() {
 //   const [data, setData] = useState()
@@ -68,7 +71,10 @@ function App() {
     {/* <UseEffectComponent/> */}
     {/* <UseRefComponent/> */}
     {/* <IndianGovt/> */}
-    <UseLayoutComponent/>
+    {/* <UseLayoutComponent/> */}
+    {/* <UseCallbackComponent/> */}
+    {/* <UseMemoComponent/> */}
+    <Test/>
     </div>
   )
 }
