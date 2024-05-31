@@ -2,7 +2,12 @@ import { useState } from 'react'
 import './App.css'
 // import img from './image/photo.webp'
 // import UseStateComponent from './components/UseState/UseStateComponent'
-import UseReducerComponent  from './components/useReducer/UseReducerComponent'
+// import UseReducerComponent  from './components/useReducer/UseReducerComponent'
+// import UseEffectComponent from './components/useEffect/UseEffectComponent'
+// import UseRefComponent from './components/useEffect/UseRefComponent'
+// import MoneyState from './components/useContext/context/MoneyState'
+import IndianGovt from './components/useContext/IndianGovt'
+import UseLayoutComponent from './components/UseLayoutEffect/UseLayoutComponent'
 
 // function App() {
 //   const [data, setData] = useState()
@@ -57,10 +62,14 @@ function App() {
 
 
   return (
-    <>
+    <div>
     {/* <UseStateComponent/> */}
-    <UseReducerComponent/>
-    </>
+    {/* <UseReducerComponent/> */}
+    {/* <UseEffectComponent/> */}
+    {/* <UseRefComponent/> */}
+    {/* <IndianGovt/> */}
+    <UseLayoutComponent/>
+    </div>
   )
 }
 
